@@ -1,0 +1,7 @@
+{
+  "notify_from": "07:00",
+  "notify_to": "22:00",
+  "notifications_enabled": true,
+  "save_full_frame": true,
+  "log_level": "DEBUG"
+}
