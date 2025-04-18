@@ -15,11 +15,9 @@
 
 ## 📸 Примеры работы
 
-<img src="./docs/2025-04-16_13-45-47_dog.jpg" width="545"> <img src="./docs/2025-04-16_15-07-01_car.jpg" width="545">
-
-<img src="./docs/2025-04-16_15-35-00_motorcycle.jpg" width="550"> <img src="./docs/2025-04-16_16-55-34_bicycle.jpg" width="550">
-
-<img src="./docs/2025-04-17_09-14-50_bird.jpg" width="550"> <img src="./docs/2025-04-17_10-10-29_truck.jpg" width="550">
+<img src="./docs/2025-04-16_13-45-47_dog.jpg" width="500"> <img src="./docs/2025-04-16_15-07-01_car.jpg" width="500">
+<img src="./docs/2025-04-16_15-35-00_motorcycle.jpg" width="500"> <img src="./docs/2025-04-16_16-55-34_bicycle.jpg" width="500">
+<img src="./docs/2025-04-17_09-14-50_bird.jpg" width="500"> <img src="./docs/2025-04-17_10-10-29_truck.jpg" width="500">
 
 ## ⚙️ Установка
 
@@ -30,7 +28,7 @@ python -m venv venv
 venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
-## ⚙️ Интерфейс конфигурации
+## 🛠️ Интерфейс конфигурации
 
 ```bash
 uvicorn web_interface:app --reload --port 8000
@@ -42,7 +40,6 @@ uvicorn web_interface:app --reload --port 8000
 ```bash
 python main.py
 ```
-
 
 ## 📁 Структура
 
