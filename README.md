@@ -15,9 +15,11 @@
 
 ## 📸 Примеры работы
 
-<img src="./docs/2025-04-16_13-45-47_dog.jpg" width="555"> <img src="./docs/2025-04-16_15-07-01_car.jpg" width="555">
-<img src="./docs/2025-04-16_15-35-00_motorcycle.jpg" width="600"> <img src="./docs/2025-04-16_16-55-34_bicycle.jpg" width="600">
-<img src="./docs/2025-04-17_09-14-50_bird.jpg" width="600"> <img src="./docs/2025-04-17_10-10-29_truck.jpg" width="600">
+<img src="./docs/2025-04-16_13-45-47_dog.jpg" width="550"> <img src="./docs/2025-04-16_15-07-01_car.jpg" width="550">
+
+<img src="./docs/2025-04-16_15-35-00_motorcycle.jpg" width="550"> <img src="./docs/2025-04-16_16-55-34_bicycle.jpg" width="550">
+
+<img src="./docs/2025-04-17_09-14-50_bird.jpg" width="550"> <img src="./docs/2025-04-17_10-10-29_truck.jpg" width="550">
 
 ## ⚙️ Установка
 
