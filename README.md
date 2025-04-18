@@ -15,7 +15,7 @@
 
 ## 📸 Примеры работы
 
-<img src="./docs/2025-04-16_13-45-47_dog.jpg" width="550"> <img src="./docs/2025-04-16_15-07-01_car.jpg" width="550">
+<img src="./docs/2025-04-16_13-45-47_dog.jpg" width="545"> <img src="./docs/2025-04-16_15-07-01_car.jpg" width="545">
 
 <img src="./docs/2025-04-16_15-35-00_motorcycle.jpg" width="550"> <img src="./docs/2025-04-16_16-55-34_bicycle.jpg" width="550">
 
