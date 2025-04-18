@@ -15,13 +15,9 @@
 
 ## 📸 Пример работы
 
-<img src="./docs/web_interface.JPG" width="600">
-<img src="./docs/2025-04-16_13-45-47_dog.jpg" width="600">
-<img src="./docs/2025-04-16_15-07-01_car.jpg" width="600">
-<img src="./docs/2025-04-16_15-35-00_motorcycle.jpg" width="600">
-<img src="./docs/2025-04-16_16-55-34_bicycle.jpg" width="600">
-<img src="./docs/2025-04-17_09-14-50_bird.jpg" width="600">
-<img src="./docs/2025-04-17_10-10-29_truck.jpg" width="600">
+<img src="./docs/2025-04-16_13-45-47_dog.jpg" width="600"> <img src="./docs/2025-04-16_15-07-01_car.jpg" width="600">
+<img src="./docs/2025-04-16_15-35-00_motorcycle.jpg" width="600"> <img src="./docs/2025-04-16_16-55-34_bicycle.jpg" width="600">
+<img src="./docs/2025-04-17_09-14-50_bird.jpg" width="600"> <img src="./docs/2025-04-17_10-10-29_truck.jpg" width="600">
 
 ## ⚙️ Установка
 
@@ -32,6 +28,12 @@ python -m venv venv
 venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
+## ⚙️ Интерфейс конфигурации
+
+```bash
+uvicorn web_interface:app --reload --port 8000
+```
+<img src="./docs/web_interface.JPG" width="600">
 
 ## 🚀 Запуск
 
@@ -39,24 +41,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-##  🛠 Настройки
-
-Файл `config.json`:
-```json
-{
-  "notify_from": "07:00",
-  "notify_to": "22:00",
-  "notifications_enabled": true,
-  "save_full_frame": true,
-  "log_level": "DEBUG"
-}
-```
-
-## ⚙️ Интерфейс конфигурации
-
-```bash
-uvicorn web_interface:app --reload --port 8000
-```
 
 ## 📁 Структура
 
