@@ -69,11 +69,11 @@ def main():
                 display_text = f"{label} [{plate}]"
                 if plate:
                     should_alert = True
-                    label += f" [{plate}]"
+                    label += f" {plate}"
             else:
                 display_text = f"{label} [{conf:.2f}]"
                 should_alert = True
-                label += f" [{conf:.2f}]"
+                label += f" {conf:.2f}"
 
             if label:
                 log_detection(frame, label, roi, save_full_frame)
