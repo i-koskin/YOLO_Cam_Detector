@@ -103,7 +103,7 @@ def main():
         cv2.imshow("YOLOv8 Detection", frame)
         key = cv2.waitKey(1) & 0xFF
         if key in [ord('q'), 27]:  # Остановка по клавишам "q" или "Esc"
-            logging.info("🛠 Принудительная остановка пользователем")
+            logging.info("🛠️ Принудительная остановка пользователем")
             break
 
     cap.release()
