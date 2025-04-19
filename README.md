@@ -40,9 +40,3 @@ uvicorn web_interface:app --reload --port 8000
 ```bash
 python main.py
 ```
-
-## 📁 Структура
-
-- `logs/images/` — сохранённые кадры
-- `logs/YYYY-MM-DD_log.log` — журнал работы системы
-- `docs/` — скриншоты работы системы
