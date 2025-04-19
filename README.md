@@ -1,8 +1,8 @@
-# 🚨 YOLO_Cam_Detector
+## 🚨 YOLO_Cam_Detector
 
 Проект видеомониторинга с использованием детектора объектов YOLOv8. Распознаёт людей, животных и автомобильные номера в режиме реального времени, отправляет email-уведомления и сохраняет логи с изображениями.
 
-## 🔧 Возможности
+### 🔧 Возможности
 
 - 🎥 Подключение к камере или видеопотоку
 - 📦 Обнаружение объектов (люди, животные, авто)
@@ -13,13 +13,13 @@
 - 🎨 Цветовая палитра по классам
 - 🔄 Автоматический перезапуск при ошибках
 
-## 📸 Примеры работы
+### 📸 Примеры работы
 
 <img src="./docs/2025-04-16_13-45-47_dog.jpg" width="410"> <img src="./docs/2025-04-16_15-07-01_car.jpg" width="410">
 <img src="./docs/2025-04-16_15-35-00_motorcycle.jpg" width="410"> <img src="./docs/2025-04-16_16-55-34_bicycle.jpg" width="410">
 <img src="./docs/2025-04-17_09-14-50_bird.jpg" width="410"> <img src="./docs/2025-04-17_10-10-29_truck.jpg" width="410">
 
-## ⚙️ Установка
+### ⚙️ Установка
 
 ```bash
 git clone https://github.com/i-koskin/YOLO_Cam_Detector.git
@@ -28,14 +28,14 @@ python -m venv venv
 venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
-## 🛠️ Интерфейс конфигурации
+### 🛠️ Интерфейс конфигурации
 
 ```bash
 uvicorn web_interface:app --reload --port 8000
 ```
 <img src="./docs/web_interface.JPG" width="500">
 
-## 🚀 Запуск
+### 🚀 Запуск
 
 ```bash
 python main.py
