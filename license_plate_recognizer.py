@@ -11,7 +11,7 @@ class PlateRecognizer:
 
     def __init__(self):
         """
-        Инициализирует модуль OCR с поддержкой русского языка и классификацией угла поворота.
+        Инициализирует модуль OCR c классификацией угла поворота.
         """
         self.ocr = PaddleOCR(use_angle_cls=True, lang='en')
 
