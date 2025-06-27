@@ -57,7 +57,7 @@ CLASS_COLOR_PALETTE = {
     "cat":           (128, 0, 255),     # Фиолетовый
     "dog":           (0, 255, 128),     # Мятный
 }
-(0, 255, 128),     # Мятный
+
 # Классы, по которым может происходить распознавание номеров
 LICENSE_PLATE_KEYWORDS: list[str] = [
     'car', 'motorcycle', 'bus', 'truck']
