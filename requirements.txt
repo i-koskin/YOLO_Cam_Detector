@@ -1,4 +1,3 @@
-
 # YOLOv8
 ultralytics==8.0.239
 
