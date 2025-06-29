@@ -13,7 +13,7 @@ class PlateRecognizer:
         """
         Инициализирует модуль OCR c классификацией угла поворота.
         """
-        self.ocr = PaddleOCR(use_angle_cls=True, lang='en')
+        self.ocr = PaddleOCR(use_angle_cls=True, lang='en', use_gpu=True)
 
     def correct_plate_number(self, plate: str) -> str:
         """
@@ -70,9 +70,7 @@ class PlateRecognizer:
             plate_raw = result[0][0][1][0]  # Извлекаем текст из результата OCR
             plate = self.correct_plate_number(plate_raw)
 
-            # Можно раскомментировать, если нужно фильтровать по валидности
-            # if self.is_license_plate(plate):
-            #     return plate
-            return plate
-
+            if self.is_license_plate(plate):
+                 return plate
+    
         return ""
