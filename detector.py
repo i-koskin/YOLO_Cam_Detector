@@ -109,7 +109,7 @@ class ObjectDetector:
         self.target_classes = TARGET_CLASSES
         self.conf_threshold = CONFIDENCE_THRESHOLD
 
-    def detect(self, frame: np.ndarray) -> Tuple[np.ndarray, List[Dict[str, str | float | Tuple[int, int, int, int]]]]:
+    def detect(self, frame: np.ndarray, device: str) -> Tuple[np.ndarray, List[Dict[str, str | float | Tuple[int, int, int, int]]]]:
         """
         Выполняет детекцию объектов, фильтрует по классу и порогу уверенности, и опционально рисует боксы и легенду.
 
@@ -120,7 +120,7 @@ class ObjectDetector:
         Returns:
             Tuple[np.ndarray, List[Dict]]: Кадр с отрисовкой и список найденных объектов.
         """
-        results = self.model(frame, verbose=False)[0]
+        results = self.model(frame, device=device, verbose=False)[0]
         detections: List[Dict[str, str | float |
                               Tuple[int, int, int, int]]] = []
         class_counts: Dict[str, int] = defaultdict(int)
