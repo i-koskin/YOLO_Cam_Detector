@@ -16,6 +16,7 @@ paddlepaddle==3.0.0
 # Веб-интерфейс
 fastapi==0.115.5
 uvicorn==0.34.0
+python-multipart==0.0.20
 
 # Парсинг и конфиг
 python-dotenv==1.0.1
