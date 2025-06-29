@@ -16,6 +16,7 @@ with open("config.json", "r", encoding="utf-8") as f:
     cfg = json.load(f)
 
 save_full_frame = cfg.get("save_full_frame", False)
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Запуск логирования
 setup_logging()
@@ -45,7 +46,7 @@ def main():
             cap = get_camera_stream()
             continue
 
-        frame, detections = detector.detect(frame)
+        frame, detections = detector.detect(frame, device)
         alert_triggered = False
         alert_label = ""
         alert_roi = None
