@@ -109,7 +109,7 @@ def main():
 
     cap.release()
     cv2.destroyAllWindows()
-    logging.info("🛑 Захват остановлен. Окна закрыты")
+    logging.info("🛑 Захват остановлен")
 
 
 if __name__ == "__main__":
